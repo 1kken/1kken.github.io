@@ -15,6 +15,10 @@
     --accentColor:#E04D01;
     --defTransition:all 0.4s ease; 
 }
+
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Inconsolata',monospace;
 }
