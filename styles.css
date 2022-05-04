@@ -81,7 +81,13 @@ header{
     text-decoration: none;
     color: var(--accentColor);
 }
+.name{
+    color: var(--accentColor);
+    font-size: 1.75rem;
+    font-weight: 500;
+}
 .content{
+    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -104,19 +110,43 @@ header{
 
 #skill-page{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
+#skill-name{
+    color: var(--accentColor);
+    font-weight: 600;
+    font-size: 2.rem;
+    text-shadow: 0px 8px 8px var(--seconColor);
+}
+
 .container-skill{
+    background-color: var(--seconColor);
     text-align: center;
-    color: #E04D01;
+    color: var(--accentColor);
     display: flex;
-    flex-direction: column;
-    position: absolute;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
     line-height: 30px;
     letter-spacing: 1px;
+    box-shadow: 0px 8px 12px var(--seconColor);
 }
+
+.skill{
+    width:250px;
+    height: 250px;
+    flex-basis: 50%;
+}
+
+.cont-javascript{
+    flex-basis: 100%;
+}
+
+
 
 .container-skill>h3::before{
     content: "";
