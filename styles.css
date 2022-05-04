@@ -99,6 +99,7 @@ header{
     background-position:center;
     background-size: cover;
     box-shadow: 0px 12px 8px var(--seconColor);
+    transition: var(--defTransition);
 }
 
 #skill-page{
