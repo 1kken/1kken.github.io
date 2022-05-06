@@ -32,6 +32,29 @@ a{
      text-decoration: underline;
 }
 
+#upButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: var(--seconColor);
+    border-radius:50px ;
+    z-index: 3;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+#upButton a{
+    font-size: 2rem;
+    text-decoration: none;
+    color: #E04D01;
+}
+
+#upButton:hover{
+    box-shadow: 0px 6px 8px var(--accentColor);
+}
 
 section{
     position: relative;
